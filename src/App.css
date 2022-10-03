@@ -1,0 +1,258 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+.block1 {
+  padding: 20px 20px;
+  display: flex;
+  background-color: #cac6fd;
+}
+#header-text {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 700 !important;
+}
+.txt-diagnosis {
+  margin-bottom: 10px;
+  font-family: "Rubik", sans-serif !important;
+  text-align: start;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+}
+.box-w-requisits {
+  background-color: #d1cefa;
+  backdrop-filter: blur(10px);
+  padding: 20px 10px;
+}
+.requisits {
+  border: 15px solid #574fa8;
+  border-radius: 35px;
+  padding: 10px 25px;
+  font-weight: 800px;
+}
+
+#btn-foreign {
+  padding: 20px 50px;
+  margin-top: 1%;
+  border: 2px solid #574fa8;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 35px;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+#btn-foreign:hover {
+  border: 2px solid #574fa8;
+  background-color: #574fa8;
+  color: white;
+  transition: 0.4s;
+}
+ul li {
+  font-weight: 800;
+}
+.requisits h2 {
+  text-decoration: underline;
+}
+
+.events-block {
+  background-color: #d1cefa;
+  padding: 20px 15px;
+}
+.card {
+  color: white;
+}
+.card-content {
+  background-color: #574fa8;
+}
+.footer {
+  font-weight: 800;
+  text-align: center;
+  padding: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .block1 img {
+    width: 200px !important;
+  }
+  .txt-diagnosis {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  #header-text {
+    font-size: 15px !important;
+  }
+  .block1 img {
+    width: 185px !important;
+  }
+  .txt-diagnosis {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .block1 img {
+    width: 165px !important;
+  }
+  .txt-diagnosis {
+    font-size: 15px !important;
+  }
+  #btn-foreign {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .block1 div {
+    margin: 20px !important;
+  }
+  .block1 img {
+    width: 150px !important;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .txt-diagnosis {
+    font-size: 12px !important;
+  }
+  #help {
+    font-size: 28px;
+  }
+  .requisits h2 {
+    font-size: 22px;
+  }
+  ul li {
+    font-size: 14px;
+  }
+  #btn-foreign {
+    font-size: 12px;
+  }
+  .block1 img {
+    width: 140px !important;
+    height: 210px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #header-text {
+    font-size: 13px !important;
+  }
+  .appbar {
+    height: 30px !important;
+  }
+  .insta {
+    width: 16px !important;
+    padding-bottom: 3px;
+  }
+  .fav {
+    width: 16px !important;
+    padding-bottom: 3px;
+  }
+  #help {
+    font-size: 25px;
+  }
+  .requisits h2 {
+    font-size: 19px;
+  }
+  ul li {
+    font-size: 12px;
+  }
+  #btn-foreign {
+    font-size: 10px;
+  }
+  .txt-diagnosis {
+    font-size: 10px !important;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .txt-diagnosis {
+    font-size: 9px !important;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .txt-diagnosis {
+    font-size: 7.5px !important;
+  }
+  #help {
+    font-size: 22px;
+  }
+  .requisits h2 {
+    font-size: 17px;
+  }
+  ul li {
+    font-size: 10px;
+  }
+  #btn-foreign {
+    font-size: 9px;
+    padding: 15px 40px;
+  }
+  .requisits {
+    border: 12px solid #574fa8;
+  }
+}
+@media screen and (max-width: 460px) {
+  .block1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px !important;
+  }
+
+  .txt-diagnosis {
+    font-size: 10px !important;
+    max-width: 400px;
+    margin-bottom: 0px !important;
+  }
+
+  .footer {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 405px) {
+  .box-w-requisits {
+    padding: 0 10px;
+  }
+  .txt-diagnosis {
+    font-size: 12px !important;
+  }
+  .footer {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 380px) {
+  ul li {
+    font-size: 8px;
+  }
+  #help {
+    font-size: 20px;
+  }
+  .requisits h2 {
+    font-size: 14px;
+  }
+  .footer {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .requisits h2 {
+    font-size: 12px;
+  }
+  #help {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .requisits h2 {
+    font-size: 10px;
+  }
+}
