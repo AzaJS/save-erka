@@ -11,9 +11,7 @@ const Events = () => {
   return (
     <>
       <div className="events-block">
-        <h3 style={{ paddingBottom: "10px" }}>
-          Ближайшие мероприятия в поддержку Эркеайым
-        </h3>
+        <h3 style={{ paddingBottom: "10px" }}>Афишa в поддержку Эркеайым</h3>
         <Card
           className="card"
           data-aos="fade-up"
