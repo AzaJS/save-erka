@@ -11,19 +11,20 @@
   padding: 20px 50px;
   margin-top: 4%;
   border: 2px solid #574fa8;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #574fa8;
+  color: white;
   border-radius: 35px;
   font-size: 17px;
   font-family: "Rubik", sans-serif;
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 600;
 }
-.overlayContent button:hover {
+/* .overlayContent button:hover {
   border: 2px solid #574fa8;
   background-color: #574fa8;
   color: white;
   transition: 0.4s;
-}
+} */
 @media screen and (max-width: 1000px) {
   .overlayContent {
     padding: 140px 80px 50px;

@@ -38,7 +38,8 @@
   padding: 20px 50px;
   margin-top: 1%;
   border: 2px solid #574fa8;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #574fa8;
+  color: white;
   border-radius: 35px;
   font-size: 17px;
   font-family: "Rubik", sans-serif;
@@ -50,6 +51,7 @@
   color: white;
   transition: 0.4s;
 }
+
 ul li {
   font-weight: 800;
 }
@@ -63,6 +65,7 @@ ul li {
 }
 .card {
   color: white;
+  margin: 6px;
 }
 .card-content {
   background-color: #574fa8;
@@ -70,7 +73,7 @@ ul li {
 .footer {
   font-weight: 800;
   text-align: center;
-  padding: 5px;
+  padding: 6px;
 }
 @media screen and (max-width: 1000px) {
   .block1 img {
@@ -129,7 +132,7 @@ ul li {
     font-size: 12px;
   }
   .block1 img {
-    width: 140px !important;
+    width: 160px !important;
     height: 210px;
   }
   .footer {

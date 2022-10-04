@@ -14,7 +14,7 @@ export default function Header() {
         className="appbar"
         style={{
           backgroundColor: "white",
-          height: "35px",
+          height: "40px",
         }}>
         <Typography
           variant="h6"
