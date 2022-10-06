@@ -4,7 +4,7 @@
 .block1 {
   padding: 20px 20px;
   display: flex;
-  background-color: #cac6fd;
+  background-color: #d3d0ff;
 }
 #header-text {
   color: black;
@@ -23,7 +23,7 @@
   font-weight: 800 !important;
 }
 .box-w-requisits {
-  background-color: #d1cefa;
+  background-color: #d3d0ff;
   backdrop-filter: blur(10px);
   padding: 20px 10px;
 }
@@ -59,7 +59,7 @@ ul li {
 }
 
 .events-block {
-  background-color: #d1cefa;
+  background-color: #d3d0ff;
   padding: 20px 15px;
 }
 .card {
@@ -84,7 +84,7 @@ ul li {
 }
 @media screen and (max-width: 900px) {
   #header-text {
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
   .block1 img {
     width: 185px !important;
@@ -98,9 +98,7 @@ ul li {
   .block1 img {
     width: 165px !important;
   }
-  .txt-diagnosis {
-    font-size: 15px !important;
-  }
+
   #btn-foreign {
     font-size: 15px;
   }
@@ -117,12 +115,13 @@ ul li {
 @media screen and (max-width: 700px) {
   .txt-diagnosis {
     font-size: 12px !important;
+    margin-bottom: 0 !important;
   }
   #help {
     font-size: 28px;
   }
   .requisits h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   ul li {
     font-size: 14px;
@@ -157,14 +156,14 @@ ul li {
     font-size: 25px;
   }
   .requisits h2 {
-    font-size: 19px;
+    font-size: 20px;
   }
   ul li {
     font-size: 12px;
   }
-  #btn-foreign {
+  /* #btn-foreign {
     font-size: 10px;
-  }
+  } */
   .txt-diagnosis {
     font-size: 10px !important;
   }
@@ -173,22 +172,28 @@ ul li {
   }
 }
 @media screen and (max-width: 550px) {
-  .txt-diagnosis {
-    font-size: 9px !important;
+  .block1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px !important;
   }
-  .footer {
-    font-size: 10px;
+
+  .txt-diagnosis {
+    font-size: 14px !important;
+    max-width: 400px;
+    margin-bottom: 0px !important;
   }
 }
 @media screen and (max-width: 500px) {
   .txt-diagnosis {
-    font-size: 7.5px !important;
+    font-size: 12px !important;
   }
   #help {
     font-size: 22px;
   }
   .requisits h2 {
-    font-size: 17px;
+    font-size: 18px;
   }
   ul li {
     font-size: 10px;
@@ -202,22 +207,18 @@ ul li {
   }
 }
 @media screen and (max-width: 460px) {
-  .block1 {
+  /* .block1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px !important;
-  }
+  } */
 
-  .txt-diagnosis {
+  /* .txt-diagnosis {
     font-size: 10px !important;
     max-width: 400px;
     margin-bottom: 0px !important;
-  }
-
-  .footer {
-    font-size: 9px;
-  }
+  } */
 }
 @media screen and (max-width: 405px) {
   .box-w-requisits {
@@ -225,9 +226,6 @@ ul li {
   }
   .txt-diagnosis {
     font-size: 12px !important;
-  }
-  .footer {
-    font-size: 8px;
   }
 }
 @media screen and (max-width: 380px) {
@@ -238,23 +236,26 @@ ul li {
     font-size: 20px;
   }
   .requisits h2 {
-    font-size: 14px;
-  }
-  .footer {
-    font-size: 7px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 360px) {
   .requisits h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
   #help {
     font-size: 17px;
+  }
+  .block1 img {
+    width: 150px !important;
   }
 }
 
 @media screen and (max-width: 321px) {
   .requisits h2 {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  .block1 img {
+    width: 148px !important;
   }
 }

@@ -62,7 +62,7 @@
     padding: 130px 47px 30px;
   }
   .overlayContent p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .overlayContent button {
     font-size: 11px;
@@ -73,9 +73,7 @@
   .overlayContent {
     padding: 130px 25px 19px;
   }
-  .overlayContent p {
-    font-size: 14px;
-  }
+
   .overlayContent button {
     font-size: 11px;
   }
@@ -87,9 +85,6 @@
   }
 }
 @media screen and (max-width: 460px) {
-  .overlayContent p {
-    font-size: 12px;
-  }
   .overlayContent {
     padding: 140px 20px 17px;
   }
@@ -107,11 +102,11 @@
     padding: 10px 30px;
   }
   .overlayContent p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 342px) {
   .overlayContent button {
-    padding: 8px 25px;
+    padding: 8px 20px;
   }
 }
